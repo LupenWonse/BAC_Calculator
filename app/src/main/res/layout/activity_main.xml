@@ -51,7 +51,7 @@
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:text="@string/save_button_Label"
             android:id="@+id/button_save"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1" />
