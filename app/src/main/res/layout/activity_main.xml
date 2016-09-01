@@ -75,7 +75,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/small_drink_label"
                 android:id="@+id/radioButton_drinkSize_Small"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:checked="true" />
 
             <RadioButton
                 android:layout_width="fill_parent"
@@ -108,7 +109,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/seekBar_Alcohol"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:max="5" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -126,14 +128,14 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Button"
+                android:text="@string/save_button_Label"
                 android:id="@+id/button_AddDrink"
                 android:layout_weight="1" />
 
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Button"
+                android:text="@string/button_Reset"
                 android:id="@+id/button_Reset"
                 android:layout_weight="1" />
         </LinearLayout>

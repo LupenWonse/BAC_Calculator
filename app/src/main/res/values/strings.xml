@@ -14,7 +14,7 @@
     <string name="button_add_drink">Add Drink</string>
     <string name="button_Reset">Reset</string>
     <string name="text_status_label">Your status: </string>
-    <string name="text_status_safe">You're safe</string>
+    <string name="text_status_safe">You\'re safe</string>
     <string name="text_status_careful">Be careful</string>
     <string name="text_status_limit">Over the limit!</string>
 </resources>
